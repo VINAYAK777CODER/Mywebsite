@@ -1,0 +1,162 @@
+.container
+{
+    background-color: #baecf3;
+    
+}
+.cloud {
+    display: flex;
+    justify-content: space-between; 
+    max-width: 100%; 
+    flex-wrap: wrap; 
+  }
+  
+  .cloud img{
+    max-width: 48%; 
+    height: auto; 
+  }
+.top-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top-heading h1{
+   
+    font-family: 'Caveat', cursive;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Smooch', cursive;
+font-size: 70px;
+color: rgb(76, 162, 237);
+margin-top: -30px;
+
+}
+.top-heading p{
+    font-family: 'Caveat', cursive;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Smooch', cursive; 
+    font-size: 50;
+    margin-top: -20px;
+    color: grey;
+}
+.mountain
+{       
+            display: block;
+            margin: 0 auto;
+            max-width: 100%; /* Made the image responsive */
+            height: auto;
+            margin-bottom: 0;  
+}
+.container2,.container3
+{
+    background-color: rgb(179, 232, 232);
+}
+.top-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.myphoto{
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+.top-heading2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; /* Added for center alignment */
+    max-width: 600px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Centers the content */
+    padding: 0 20px; /* Adds padding to the sides */
+}
+.top-heading2 h1{
+    font-family: 'Caveat', cursive;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Smooch', cursive;
+font-size: 50px;
+color: #492f2f;
+margin: 0; /* Remove default margin */
+}
+.top-heading2 p{
+    font-family: 'Caveat', cursive;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Smooch', cursive;
+font-size: 30px;
+margin:5px 0 ;
+}
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Smooch', cursive;
+
+  }
+  
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px; /* Adjust maximum width as needed */
+  
+}
+  
+  .card {
+    width: 45%; /* Adjust the width of the cards as needed */
+    margin: 20px;
+    text-align: center;
+   
+
+  }
+  .title-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  .card-title {
+    font-size: 35px;
+    margin-top: 10px;
+    color: #2F3C7E ;
+  }
+  
+  .card-text {
+    font-size: 25px;
+    margin-top: 10px;
+    color: #990011;
+  }
+  footer {
+    text-align: right;
+    color: rgb(245, 235, 235);
+    background-color: #492f2f;
+  }
+
+
+
+
